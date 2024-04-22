@@ -5,7 +5,8 @@ import { generateRandomColor } from './generateColor'
 const Statistics = ({stats, title}) => {
     return (<section className={style.statistics}>
       <div className={style.title_wrap}>
-        <h2 className={style.title}>{title}</h2>
+       { title &&
+       <h2 className={style.title}>{title}</h2>}
       </div>
       <ul className={style.stats_list}>
       {stats.map((elem) =>{
