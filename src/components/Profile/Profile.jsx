@@ -1,5 +1,3 @@
-// import './profile.module.css'
-import clsx from 'clsx'
 import style from './profile.module.css'
 import { formatNumbers } from './format'
 

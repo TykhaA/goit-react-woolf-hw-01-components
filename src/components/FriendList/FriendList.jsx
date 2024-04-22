@@ -1,4 +1,3 @@
-import clsx from 'clsx'
 import style from './friendList.module.css'
 import { generateClasses } from './utils'
 

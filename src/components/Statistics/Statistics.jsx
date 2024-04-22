@@ -1,4 +1,3 @@
-import clsx from 'clsx'
 import style from './statistics.module.css'
 import { generateRandomColor } from './generateColor'
 
